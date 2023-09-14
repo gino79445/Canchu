@@ -1,0 +1,48 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "**The website URL : [http://18.180.135.37/api/1.0/users/signup](http://18.180.135.37/api/1.0/users/signup)**",
+  "type": "module",
+  "main": "database.js",
+  "scripts": {
+    "dev": "npx nodemon app.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-redis": "^7.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^5.0.0-beta.1",
+    "express-session": "^1.17.3",
+    "faker": "^6.6.6",
+    "jsonwebtoken": "^9.0.1",
+    "k6": "^0.0.0",
+    "moment-timezone": "^0.5.43",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "redis": "^4.6.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "@babel/register": "^7.22.5",
+    "babel-jest": "^29.6.1",
+    "jest": "^29.6.1",
+    "nodemon": "^2.0.16"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    }
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}
